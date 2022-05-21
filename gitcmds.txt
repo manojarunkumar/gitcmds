@@ -34,4 +34,3 @@ For quering current branches:
 
 For renaming a current branch to new name "branch":
 	git branch -M main
-
