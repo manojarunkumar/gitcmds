@@ -1,0 +1,37 @@
+For git commit logs:
+	git log
+
+For creating new Repo:
+	git init
+
+For adding information to local repo (required before commit):
+   	git config user.name "mak"
+   	git config user.email "cholanpc@linux.com"
+   	
+For moving changes to stage:
+	git add .
+	
+For moving changes to local repo:
+	git commit -m "Comment for change"
+	
+For querying remote repo list:
+	git remote -v
+	
+For adding remote repo into our local repo:
+	git remote add origin https://github.com/manojarunkumar/gitcmds.git
+	
+For sending updates from local repo to remote repo's origin's main branch:
+	git push -u origin main
+		
+For getting fresh full copy of remote repo into normal directory:
+	git clone https://git-rba.hackerrank.com/git/b5bb6fd5-7b63-4e7e-837c-dfe1e2e9e01f
+		
+For getting latest update from remote to local repo:
+	git pull
+
+For quering current branches:
+	git branch
+
+For renaming a current branch to new name "branch":
+	git branch -M main
+
